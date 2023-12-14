@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 def generate_recipe_ideas(meal_category, preferences):
     try:
